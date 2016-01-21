@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #718087; }
 
 a {
   color: #1e6bb8;
@@ -54,10 +54,12 @@ a {
       margin-left: 0; } }
 
 .page-header {
-  color: #fff;
+  color: #212425;
   text-align: center;
-  background-color: #159957;
   background-image: url("/images/magic-keys.jpg"); }
+.page-header h2 {
+  font-style: italic;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -112,7 +114,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #212425; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
