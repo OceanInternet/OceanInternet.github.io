@@ -56,7 +56,9 @@ a {
 .page-header {
   color: #212425;
   text-align: center;
-  background-image: url("/images/magic-keys.jpg"); }
+  background: #fff url("/images/magic-keys.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
 .page-header h2 {
   font-style: italic;
 }
